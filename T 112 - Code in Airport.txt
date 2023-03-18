@@ -1,0 +1,15 @@
+n = int(input())
+
+seen = set()  # to keep track of seen values and detect loops
+
+while n not in seen:
+    seen.add(n)
+    if n == 1:
+        print("Yes")
+        break
+    elif n % 2 == 0:
+        n //= 2
+    else:
+        n = 3*n + 3
+else:
+    print("No")

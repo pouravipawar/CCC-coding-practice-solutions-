@@ -1,0 +1,4 @@
+diag1 = int(input(""))
+diag2 = int(input(""))
+area = 1/2*(diag1*diag2)
+print(area)

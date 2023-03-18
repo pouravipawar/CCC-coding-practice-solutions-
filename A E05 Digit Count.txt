@@ -1,0 +1,12 @@
+#include <stdio.h>  
+#include<math.h>  
+int main()  
+{  
+    int num;  // variable declaration  
+    int count=0;  // variable declaration  
+    printf("");  
+    scanf("%d",&num);  
+   count=(num==0)?1:log10(num)+1;  
+   printf("%d",count);  
+   return 0;  
+}  
